@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Yash846/4-Card-Feature-Frontend-Mentor)
-- Live Site URL: [Live Site](https://friendly-curie-a8cd62.netlify.app/)
+- Live Site URL: [Live Site](https://4-card-feature.netlify.app/)
 
 ## My process
 
