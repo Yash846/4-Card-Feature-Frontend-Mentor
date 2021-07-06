@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    min-width: 1200px;
+}
+
+.top-text-block {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    color: hsl(234, 12%, 34%);
+}
+
+.top-text-block h1 {
+    font-size: 2.25rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#first-text {
+    font-size: 2.25rem;
+    font-weight: 200;
+}
+
+#second-text {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.flex-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    min-width: 1200px;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    box-shadow: 2px 5px 9px 2px rgba(20, 19, 19, 0.25);;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.card img {
+    padding-left: 220px;
+    padding-top: 40px;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
+}
+
+.card-left {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.card-top {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 30px;
+}
+
+.card-bottom {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.card-right {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.attribution {
+    min-width: 1200px;
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(228, 45%, 44%);
+    font-size: 13px;
+}
+
+@media (max-width:767px) {
+    .primary-container {
+        min-width: 0px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .top-text-block {
+        width: 300px;
+    }
+
+    .top-text-block h1 {
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+
+    #first-text {
+        font-size: 1.5rem;
+    }
+
+    .flex-main {
+        flex-direction: column;
+        min-width: 0px;
+    }
+
+    .attribution {
+        min-width: 0px;
+    }
+
+}
